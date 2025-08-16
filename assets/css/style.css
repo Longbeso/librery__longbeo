@@ -1,0 +1,227 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10px */
+  /* 1 rem = giá trị font-size của html */
+  font-size: 62.5%;
+  line-height: 1.6rem;
+}
+
+:root {
+  --text-color: #181c18;
+  --height-header: 90px;
+  --primery-color: #f9f9f9;
+}
+
+/* search */
+.header__search {
+  height: auto;
+  background-color: var(--primery-color);
+}
+.header__logo {
+  display: flex;
+  justify-content: center;
+  height: var(--height-header);
+}
+.logo {
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
+}
+
+.wraper__search {
+  height: var(--height-header);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  width: 100%;
+  margin: 0 12px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px, solid #aaa093;
+  outline: none;
+  box-shadow: 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.sub__search {
+  height: var(--height-header);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub__search-item {
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin: 0 12px;
+  color: var(--text-color);
+}
+
+/* tag  */
+
+.tag_container {
+  margin: 32px 54px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tag {
+  text-decoration: none;
+  color: #5d6686;
+  font-size: 1.3rem;
+  margin: 4px;
+  padding: 4px 8px;
+  border: 1px solid #c7cfd9;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.tag:hover {
+  background-color: #4c6686;
+  color: white;
+  transform: scale(1.12);
+}
+
+/* main */
+/* best sell */
+
+.sell__heading {
+  color: var(--text-color);
+  font-size: 2.4rem;
+  margin-bottom: 12px;
+}
+
+.bestselling {
+  background-color: #fff;
+  padding: 32px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.sell__card {
+  height: 250px;
+  width: 128px;
+  border-radius: 6px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+  padding: 2px;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+.sell__card-link {
+  text-decoration: none;
+  width: 128px;
+}
+.sell__card-img {
+  width: 100%;
+  height: 175px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.card__discription {
+  text-align: justify;
+  margin: 0 4px;
+  color: var(--text-color);
+  font-size: 1.2rem;
+}
+
+.sell__card:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 40px rgba(255, 223, 0, 0.8);
+  color: rgba(0, 0, 0, 0.85);
+}
+
+/* discover */
+
+.discover {
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 32px 0;
+  padding: 24px;
+  border-radius: 5px;
+}
+.dis__card {
+  display: flex;
+  align-items: center;
+  margin: 0 8px;
+}
+
+.discover__img {
+  height: 53px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.discover__discription {
+  margin-left: 8px;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: var(--text-color);
+  text-align: justify;
+}
+
+/* newBook */
+
+.newupdate {
+  margin-bottom: 32px;
+}
+
+.card__newbook {
+  height: 300px;
+  display: flex;
+  padding: 16px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  margin-bottom: 32px;
+  transition: transform 0.2s linear;
+}
+
+.card__newbook:hover {
+  transform: translate(5px, -5px);
+  box-shadow: 0 0 40px rgba(255, 223, 0, 0.8);
+}
+
+.newbook__img {
+  height: 137px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.newbook__infor {
+  padding: 0 12px;
+  text-align: justify;
+}
+
+.newbook__heading {
+  font-size: 1.4rem;
+}
+
+.newbook__discription {
+  font-size: 1.1rem;
+}
+
+/* footer */
+
+.footer {
+  padding: 32px;
+  background-color: #e5e5e5;
+}
+
+.footer__heading {
+  font-size: 2rem;
+  padding: 12px 0;
+}
+
+.footer__discription {
+  text-align: justify;
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  line-height: 1.9rem;
+}

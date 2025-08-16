@@ -1,0 +1,42 @@
+@media (max-width: 739px) {
+  /* header */
+  /* bestsell */
+  .sell__card {
+    margin-bottom: 12px;
+    width: auto;
+    text-align: center;
+  }
+  .sell__card-img {
+    width: 128px;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .card__discription {
+    padding: 0 9px;
+  }
+
+  /* discover */
+  .dis__card {
+    margin-bottom: 8px;
+  }
+  .discover__discription {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+
+  /* footer */
+  .footer {
+    padding: 42px;
+  }
+  .footer__heading {
+    font-size: 2rem;
+    padding: 12px 0;
+    line-height: 2.4rem;
+    text-align: justify;
+  }
+  .footer__discription {
+    margin-bottom: 12px;
+    line-height: 2.4rem;
+  }
+}
