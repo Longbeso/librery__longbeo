@@ -2,9 +2,13 @@
   /* header */
   /* bestsell */
   .sell__card {
-    margin-bottom: 12px;
     width: auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0;
   }
   .sell__card-img {
     width: 128px;
@@ -13,7 +17,12 @@
     border-radius: 8px;
   }
   .card__discription {
-    padding: 0 9px;
+    width: 128px;
+  }
+  .sell__card:hover {
+    transform: scale(1.12);
+    box-shadow: 0 0 40px rgba(255, 223, 0, 0.8);
+    color: rgba(0, 0, 0, 0.85);
   }
 
   /* discover */

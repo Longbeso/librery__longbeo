@@ -17,6 +17,10 @@ html {
   --primery-color: #f9f9f9;
 }
 
+.wrap {
+  background-color: var(--primery-color);
+}
+
 /* search */
 .header__search {
   height: auto;
@@ -224,4 +228,12 @@ html {
   font-size: 1.4rem;
   margin-bottom: 12px;
   line-height: 1.9rem;
+}
+
+/* select */
+
+select {
+  border-radius: 4px;
+  background-color: var(--primery-color);
+  border: 1px solid #b49696;
 }
